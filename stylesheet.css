@@ -1,0 +1,333 @@
+        .navbar {
+            text-decoration: none;
+        }
+        
+        .navbar-nav {
+            list-style: none;
+            margin: 0 auto;
+        }
+        
+        .nav-link {
+            text-align: center;
+        }
+        
+        .navbar-nav li a {
+            color: black;
+            text-decoration: transparent;
+            padding: 100px;
+            line-height: 90px;
+        }
+        
+        .jumbotron {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            background-image: url(image/slika12.jpg);
+            background-size: cover;
+            margin-top: 20px;
+            color: white;
+            height: 80vh;
+            margin: 10px;
+        }
+        
+        .jumbotron p {
+            font-size: 15px;
+        }
+        
+        .col-one {
+            background-color: none;
+        }
+        
+        .col-two {
+            background-color: none;
+        }
+        
+        .col-three {
+            background-color: none;
+        }
+        
+        .container h2 {
+            text-align: center;
+            background: rgb(214, 247, 236);
+            font-style: bolder;
+        }
+        
+        .text1 {
+            text-align: justify;
+            font-size: 20px;
+            background: rgb(214, 247, 236);
+            font-style: italic;
+        }
+        
+        .container1 {
+            margin: 10px;
+        }
+        
+        .container {
+            text-align: center;
+            margin: 0 auto;
+            width: 90%;
+        }
+        
+        .cards-section {
+            padding: 4%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .container6 {
+            width: 90%;
+        }
+        
+        .card-img-top {
+            width: 300px;
+            float: left;
+        }
+        
+        .dugme-slicice {
+            text-align: center;
+        }
+        
+        .karta {
+            text-align: center;
+        }
+        
+        .btn {
+            border-radius: 0;
+            margin: 10px;
+            text-align: center;
+        }
+        
+        .dropdown {
+            background-image: url(image/slika11.jpg);
+            background-size: cover;
+            height: 65vh;
+            background-repeat: no-repeat;
+            padding-top: 15%;
+            margin: 10px;
+            color: white;
+            text-align: center;
+        }
+        
+        .img-section,
+        .text-section {
+            height: 45vh;
+            text-align: center;
+        }
+        
+        .img-section {
+            background-image: url(C:Users\Jasmin\Desktop\Sajt\image\slika2.jpg);
+            background-size: cover;
+            padding: 1%;
+        }
+        
+        .text-section {
+            padding: 5%;
+        }
+        
+        .container3 {
+            padding: 10px;
+            margin: 30px;
+        }
+        
+        #thumbnail-preview-indicators {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        #thumbnail-preview-indicators .slides .slide-1,
+        #thumbnail-preview-indicators .slides .slide-2,
+        #thumbnail-preview-indicators .slides .slide-3 {
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+        
+        #thumbnail-preview-indicators,
+        #thumbnail-preview-indicators .slides,
+        #thumbnail-preview-indicators .slides .slide-1,
+        #thumbnail-preview-indicators .slides .slide-2,
+        #thumbnail-preview-indicators .slides .slide-3 {
+            height: 480px;
+        }
+        
+        #thumbnail-preview-indicators .slides .slide-1 {
+            background-image: url(https://s3.amazonaws.com/ooomf-com-files/wdXqHcTwSTmLuKOGz92L_Landscape.jpg);
+        }
+        
+        #thumbnail-preview-indicators .slides .slide-2 {
+            background-image: url(https://s3.amazonaws.com/ooomf-com-files/tU3ptNgGSP6U2fE67Gvy_SYDNEY-162.jpg);
+        }
+        
+        #thumbnail-preview-indicators .slides .slide-3 {
+            background-image: url(https://s3.amazonaws.com/ooomf-com-files/mtNrf7oxS4uSxTzMBWfQ_DSC_0043.jpg);
+        }
+        
+        #thumbnail-preview-indicators .carousel-inner .item .carousel-caption {
+            top: 20%;
+            bottom: inherit;
+        }
+        
+        #thumbnail-preview-indicators .carousel-indicators li,
+        #thumbnail-preview-indicators .carousel-indicators li.active {
+            position: relative;
+            width: 100px;
+            height: 8px;
+        }
+        
+        #thumbnail-preview-indicators .carousel-indicators li>.thumbnail {
+            position: absolute;
+            top: 0;
+            width: 100px;
+            display: none;
+            opacity: 0;
+            left: 50%;
+            margin-top: -80px;
+            margin-left: -50px;
+        }
+        
+        #thumbnail-preview-indicators .carousel-indicators li:hover>.thumbnail,
+        #thumbnail-preview-indicators .carousel-indicators li.active>.thumbnail {
+            display: block;
+            opacity: .8;
+        }
+        
+        #thumbnail-preview-indicators .carousel-indicators li.active>.thumbnail:hover {
+            opacity: 1;
+        }
+        
+        @media screen and (max-width: 480px) {
+            #thumbnail-preview-indicators .carousel-indicators li,
+            #thumbnail-preview-indicators .carousel-indicators li.active {
+                width: 50px;
+                height: 8px;
+                position: relative;
+            }
+            #thumbnail-preview-indicators .carousel-indicators li>.thumbnail {
+                width: 50px;
+                left: 50%;
+                margin-top: -50px;
+                margin-left: -25px;
+            }
+        }
+        
+        .footer {
+            text-align: center;
+            background-color: rgb(18, 58, 2);
+            opacity: 0.5;
+            color: #fff;
+            padding-top: 1%;
+            padding-left: 30%;
+            margin: 20px;
+        }
+        
+        .footer div {
+            text-align: left;
+        }
+        
+        .fab {
+            padding: 15px;
+            font-size: 30px;
+            color: #fff;
+        }
+        
+        .fab:hover {
+            color: #D5D5D5;
+            text-decoration: none;
+        }
+        
+        .container8 {
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .container10 {
+            margin: 0 auto;
+            width: 100%;
+        }
+        
+        .container11 {
+            width: 80%;
+            margin: auto;
+            padding: 10px;
+        }
+        
+        .container13 {
+            width: 50%;
+            margin: 0 auto;
+        }
+        
+        .container16 {
+            margin: 5vh;
+            text-align: center;
+        }
+        
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+        /* Clear floats after image containers */
+        
+        .row1::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        .row1 {
+            display: flex;
+        }
+        
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+        
+        .dropbtn {
+            background-color: #3498DB;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        /* Dropdown button on hover & focus */
+        
+        .dropbtn:hover,
+        .dropbtn:focus {
+            background-color: rgb(255, 38, 85);
+        }
+        /* The container <div> - needed to position the dropdown content */
+        
+        .dropdown {
+            position: relative;
+        }
+        /* Dropdown Content (Hidden by Default) */
+        
+        .dropdown-content {
+            display: none;
+            text-align: center;
+            min-width: 160px;
+            z-index: 1;
+        }
+        /* Links inside the dropdown */
+        
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        /* Change color of dropdown links on hover */
+        
+        .dropdown-content a:hover {
+            background-color: rgb(29, 167, 59);
+            opacity: 0.6;
+        }
+        /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+        
+        .show {
+            display: block;
+        }
